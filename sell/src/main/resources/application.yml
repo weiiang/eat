@@ -1,0 +1,21 @@
+spring:
+  datasource:
+    driver-class-name:  com.mysql.jdbc.Driver
+    username: root
+    password: root
+    url:  jdbc:mysql://127.0.0.1/sell?characterEncoding=utf-8&useSSL=false
+  jpa:
+    show-sql: true
+
+#    database-platform: org.hibernate.dialect.MySQL5Dialect
+#日志配置
+#logging:
+#  pattern:
+#    console: "%d - %msg%n"
+#  path: /logs
+#  file: /logs/sell.log
+#  level:
+#    com.imooc.sell.SellAppplication: debug
+#    com.imooc.sell.LoggerTest: debug
+server:
+  context-path: /sell
